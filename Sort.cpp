@@ -1,4 +1,4 @@
-Сортировка пузырьком
+РЎРѕСЂС‚РёСЂРѕРІРєР° РїСѓР·С‹СЂСЊРєРѕРј
 #include "iostream"
 #include "iomanip"
 #include "ctime"
@@ -11,7 +11,7 @@ int main() {
 	int arr[SIZE] = {};
 	for (int i = 0; i < SIZE; i++)
 		arr[i] = rand()%10;
-	cout << "Исходный массив: " << endl << endl;
+	cout << "РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ: " << endl << endl;
 	for (int i = 0; i < SIZE; i++)
 		cout << setw(3) << arr[i];
 	for (int i = 0; i < SIZE; i++)
@@ -27,14 +27,14 @@ int main() {
 		}
 	}
 	cout << endl;
-	cout << "\nОтсортированный массив: " << endl << endl;
+	cout << "\nРћС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ: " << endl << endl;
 	for (int i = 0; i < SIZE; i++)
 		cout << setw(3) << arr[i];
 	system("pause>NUL");
 	return 0;
 }
 
-//Сортировка вставками
+//РЎРѕСЂС‚РёСЂРѕРІРєР° РІСЃС‚Р°РІРєР°РјРё
 //
 //#include "iostream"
 //#include "iomanip"
@@ -49,7 +49,7 @@ int main() {
 //	int arr[SIZE] = {}, k, temp;
 //	for (int i = 0; i < SIZE; i++)
 //		arr[i] = rand()%10;
-//	cout << "Исходный массив: " << endl << endl;
+//	cout << "РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ: " << endl << endl;
 //	for (int i = 0; i < SIZE; i++)
 //		cout << setw(3) << arr[i];
 //	for (int i = 1; i < SIZE; i++) 
@@ -62,7 +62,7 @@ int main() {
 //		}
 //	}
 //	cout << endl;
-//	cout << "\nОтсортированный массив: " << endl << endl;
+//	cout << "\nРћС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ: " << endl << endl;
 //	for (int i = 0; i < SIZE; i++)
 //		cout << setw(3) << arr[i];
 //	system("pause>NUL");
